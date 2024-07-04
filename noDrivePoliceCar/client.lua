@@ -50,6 +50,13 @@ AddEventHandler('preventDriverSeat', function()
                 position = 'bottomleft',
                 progress = true
             })
+ --  if seat == playerPed then
+      --  TaskLeaveVehicle(playerPed, vehicle, 0)
+     --   TriggerEvent('chat:addMessage', {
+       --     args = { "Vous ne pouvez pas conduire ce véhicule de police." }
+     --   })
+
+                
         end
     end
 end)
